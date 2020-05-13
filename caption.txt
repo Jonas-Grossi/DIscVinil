@@ -1,0 +1,35 @@
+figure.foto-vinil figcaption{
+/*opacidade*/
+opacity:0;
+/*posicao absoluta pode ultrapassar as div*/
+position:absolute;	
+/*cima*/
+top:0px;
+/*definindo cor*/
+background-color:rgba(0,0,0,.4)
+/*largura*/
+ width:100%;
+/*altura*/
+height:100%;
+/*espacamento*/	
+padding:10px;
+/*preenchimento da borda*/
+box-size: border-box;	
+}
+
+
+
+figure.foto-vinil img{
+	/*largura*/
+	width:100%;
+	/*altura*/
+	height:100%:	
+}
+
+
+
+/*efeito na figura*/ 
+figure.foto-vinil:hover figcaption{
+	/*opacidade*/
+	opacity:1;
+}

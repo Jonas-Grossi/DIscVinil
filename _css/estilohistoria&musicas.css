@@ -1,0 +1,291 @@
+@charset "UTF-8";
+
+/*corpo*/
+body{
+/*imagem do fundo*/
+background-image: url("fundo10.jpg");
+
+
+}
+/*conteiner da inferface*/
+div#interface{
+	/*largura*/
+	width:auto;
+	/*altura*/
+	height:auto;	
+	/*margem*/
+	margin:none;
+	border-top:0px;
+	/*efeito de sombra*/
+	
+
+}
+/*formatacao do cabecalho*/
+
+
+
+	
+		/*formatacao dos titulos h1*/
+		header#cabecalho h1{
+	        
+			/*familia de fontes */
+			font-family:Arial;
+			text-align:center;
+			/*tamanho da fonte*/
+			font-size:30pt;
+			/*cor da fonte*/
+			color:red;
+			/*sombra do texto*/
+			text-shadow: 2px 2px 2px black;
+			}
+			
+			/*formatacao dos subtitulos h2*/
+			header#cabecalho h2{
+				
+					/*familia de fontes */
+				font-family:Arial;
+				/*tamanho da fonte*/
+				font-size: 16pt;
+				/*cor da fonte*/
+				color:yellow;
+				/*sombra do texto*/
+				text-shadow: 1px 1px 1px black;
+				
+					}
+					
+			
+						
+	
+	/*formatacao do menu nav*/
+    nav#menu{
+		/*redenriza elemento como bloco para flutuar na tela*/
+		display: block;
+		/*posicao absoluta para passar por cima do bloco*/
+		position:absolute;
+		/*parte de cima*/
+		top: 185px;
+		/*esquerda*/
+		left:400px;
+		
+	}
+		
+		
+		/*menu das listas desordenadas*/
+	nav#menu ul{
+		/*remove bolinhas das listas*/
+		list-style: none;
+		/*mudar o texto para maisucula*/
+		text-transform: uppercase;
+		
+	}	
+	/*menu elementos da lista desordenada*/
+	nav#menu li{
+		/*faz elementos ficarem do lado um do outro*/
+		display: inline-block;
+		/*cor de fundo do elemento*/
+		background-color:#B0E0E6;
+		/*define uma a distância entre o conteúdo de um elemento e suas bordas.*/
+		padding:10px;
+		/*margem*/
+		margin:1px;
+		/*transicao de uma cor para outra*/
+		transition:background-color 1s;
+	}
+	/* define efeito de quando o mouse passa por cima dos elementos da lista*/
+	nav#menu li:hover{
+			/* cor cinza*/
+		background-color:#606060;
+		
+	}
+	/* texto do menu*/
+	nav#menu h1{
+		 /* sumindo com o texto*/
+			display:none;
+	}
+	/*formatar todos os links do menu */
+nav#menu a{
+	/* cor preta para os links*/*/
+	color:#000000;
+	/* tirar o sublinhado dos links*/
+	text-decoration: none;
+	}
+	/* efeito de mudar a cor da letra quando passa o mouse*/
+	nav#menu a:hover{
+		/* cor branca*/
+		color:#ffffff;
+		/* sublinhar o link qunado passar o mouse*/
+		text-decoration:underline;
+	}
+	/*estilo secao do corpo*/
+
+
+section#busca{
+display: block;
+width: 280px;
+float:right;
+
+}
+#txtBusca{
+  float:left;
+  background-color:white;
+  padding-left:5px; 
+  font-size:18px;
+  border:none;
+  height:30px;
+  width:154px;
+}
+ 
+#btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:80px;
+  font-weight:bold;
+  background:#ffffff;
+}
+#busca img{
+  float:left;
+  width:32px;
+}
+ section#corpo{
+	
+	/*declara como bloco*/
+	display: block;
+	/*largura*/
+	width: 800px;
+	height:500px;
+	/*flutua a esquerda*/
+	float:left;
+	/*declarando borda direita*/
+	/*border-top:1px solid #606060 ;*/
+	/*border-left: 1px solid #606060 ;*/
+	/*define distancia a direita e o conteudo*/
+	padding-right:15px;
+}
+
+/*estilo lateral*/
+section#superior{
+	display: block;
+	width: 1200px;
+	text-align:center;
+	margin-top:none;
+	
+}
+aside#lateral{
+	
+	/*declarando borda a esquerda*/				
+	
+	/*definindo como um bloco*/
+	
+	display:block;
+	/*definindo largura*/
+	width:300px;
+	height:500px;
+	/*flutuando a direita*/
+	float:right;
+	border-left:1px #606060 solid;*/
+	/*border-top: 1px #606060 solid;*/
+	text-align:center;
+	/*define a distancia a esquerda */
+	padding-left:15px;
+}
+/*estilo rodape*/
+footer#rodape{
+		/*definindo borda em cima*/
+		border-top:1px #606060 solid;
+		/*distancia entre conteudo e a borda*/
+		padding-top:15px;
+		/*limpa a divisao feita pela lateral e corpo*/
+		clear:both;
+			
+}
+/*formatando paragrafo do rodape*/
+footer#rodape p{
+	/*alinha texto no centro*/
+	   color:white;
+	   text-align:center;
+
+	}
+	/*estilo icone do cabecalho*/
+	header#cabecalho img#icone{
+		/*posicao absoluta do icone para passar por cima do bloco*/
+		position:absolute;
+		/*tamanho esquerdo */
+		right:300px;
+		/*parte de cima*/
+		top:200px;
+		
+		}
+		header#cabecalho img#cabecalho{
+		/*posicao absoluta do icone para passar por cima do bloco*/
+		position:relative;
+		/*tamanho esquerdo */
+		left:3px;
+		height:180px;
+		border:none;
+		margin:none;
+		}
+		
+			
+		}
+		
+		/*estilo*/
+	header#cabecalho{
+		/*altura*/
+		height:200px;
+		/*tirando repeticao da foto*/
+			
+		/*background:url("../_images/varios.jpg") no-repeat 0px 10px;*/
+		
+		}
+		/*estilo dos textos em h1 do cabecalho*/
+		header#cabecalho h1{
+			/*tipo de fonte*/
+			font-family:Arial, sans-serif;
+			/*tamanho da fonte*/
+			font-size:30px;
+			/*cor da fonte*/
+			color:#606060;
+			/*sombra do texto*/
+			text-shadow:1px 1px 1px rgba(0,0,0, .6);
+
+		}
+	
+
+	
+
+/*formatação da historia*/
+
+.p1{
+	color: yellow;
+	font-family: arial;
+	text-transform: capitalize;
+	text-indent: 30px;
+	width: 950px;
+	text-align: justify;
+	font-size: 18px;
+}
+
+.imagemhist{
+	position: absolute;
+	width: 770px;
+	height: 200px;
+}
+
+
+/*formatação audios*/
+
+audio{
+	width: 200px;
+	height: 30px;
+	position: absolute;
+}
+
+
+
+.absolute{
+	padding: 0px 0px 0px 53px;
+	position: absolute;
+}
+
