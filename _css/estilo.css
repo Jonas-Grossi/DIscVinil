@@ -43,10 +43,7 @@ header#login h2{
 				text-shadow: 1px 1px 1px black;
 	
 }
-header#login h3{
-	
-	color:yellow;
-}
+
 /*formatacao do cabecalho*/
 
 
@@ -332,6 +329,7 @@ figure.foto-album1 figcaption{
 			text-shadow:1px 1px 1px rgba(0,0,0, .6);
 			
 		}
+		
 	
 		
 	/*formatacao das figuras*/

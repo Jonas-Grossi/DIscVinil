@@ -7,7 +7,7 @@
 <body>
 <header id="login">
 
-<form name="signup" method="get" action="cadastrando.php">
+<form name="signup" method="post" action="cadastrando.php">
 <h1><center></br></br></br>Sistema de Cadastro DiscVinil</center></br></h1>
 <h2><center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nome:<input type="text" name="nome"/></center></h2>
 <h2><center>Sobrenome:<input type="text" name="sobrenome"/></center></h2>
