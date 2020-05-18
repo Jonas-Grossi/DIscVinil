@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+/*imagem do fundo*/
+background-image: url("fundo10.jpg");
+
+
+}
+
+.coluna{
+	width: 100px;
+
+}
+
+img{
+	width: 318px;
+	height: 200px;
+
+}
+
+
+p{
+	color: white;
+	font-family: Arial;
+
+}
+
+h1{
+	color: yellow;
+	
+}
+
+
+
+
+

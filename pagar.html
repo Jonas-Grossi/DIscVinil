@@ -1,0 +1,37 @@
+﻿<!-- comando html5-->
+<!DOCTYPE html>
+<!-- definindo linguagem como portugues-brasil-->
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8"/>
+<!-- titulo-->
+	<title>DiscVinil</title>
+	     <!-- chamando arquivo css -->
+		<link rel="stylesheet" href="_css/estilo.css">
+		</head>
+<body><h1><center><font color="yellow">Formas de pagamento!!</font></center></h1>
+<form action="https://desenvolvedor.moip.com.br/sandbox/PagamentoMoIP.do" method="post">
+    <input type="hidden" name="id_carteira" value="integracao@labs.moip.com.br">
+    <font color="yellow">Produto: <input type="text" name="nome" value=""></font><br /><br />  
+    <font color="yellow">Valor: <input type="text" name="valor" value=""></font><br /><br />
+    <input type="hidden" name="id_transacao" value="">    
+    <input type="hidden" name="descricao" value="Adicione aqui mais informações sobre o pagamento">
+    <input type="hidden" name="frete" value="1">  
+    <font color="yellow">Peso Frete: <input type="text" name="peso_compra" value=""></font><br /><br />   
+   <font color="yellow"> Nome completo: <input type="text" name="pagador_nome" value=""></font><br /><br /> 
+   <font color="yellow"> Email: <input type="text" name="pagador_email" value=""></font><br /><br />    
+    <font color="yellow">Telefone: <input type="text" name="pagador_telefone" value=""></font><br /><br />  
+    <font color="yellow">Rua: <input type="text" name="pagador_logradouro" value=""></font><br /><br /> 
+    <font color="yellow">Numero: <input type="text" name="pagador_numero" value=""></font><br /><br />
+    <font color="yellow">Complemento: <input type="text" name="pagador_complemento" value=""></font><br /><br />
+    <font color="yellow">Bairro: <input type="text" name="pagador_bairro" value=""></font><br /><br />
+    <font color="yellow">CEP: <input type="text" name="pagador_cep" value=""></font><br /><br />  
+    <font color="yellow">Cidade: <input type="text" name="pagador_cidade" value=""></font><br /><br />
+    <font color="yellow">Estado: <input type="text" name="pagador_estado" value=""></font><br /> <br /> 
+    <input type="hidden" name="pagador_pais" value="Brasil">  
+    <font color="yellow">CPF: <input type="text" name="pagador_cpf" value=""><br />   <br />
+    <input type="hidden" name="url_retorno" value="https://sualoja.com.br/notificacao/">
+    <input type='image' name='submit' src='https://desenvolvedor.moip.com.br/sandbox/imgs/buttons/bt_pagar_c02_e04.png' alt='Pagar via Moip' border='0' />
+</form>
+</body>
+</html>

@@ -18,7 +18,19 @@ include("conecta.php");
 		$senha = $_POST['senha'];
 $conexao=mysqli_connect('localhost','root','','cadastro');		
 $sql = mysqli_query($conexao,"SELECT * FROM usuarios WHERE email = '$email' and senha = '$senha'");
- 
+
+ if($email == "" || $email == null ) {
+    echo "<center><font color='red'><h1>O campo email devem ser preeenchido!!!</h1></font></center>";
+			header("Refresh:5;url=index.php");
+			die();
+			}
+			
+      else if($senha == "" || $senha == null){
+			echo "<center><font color='red'><h1>O campo senha deve ser preenchido!!!</h1></font></center>";
+			header("Refresh:5;url=index.php");
+			die();
+	  }
+	  
       $row = mysqli_num_rows($sql);
       
 	   if($row > 0) {

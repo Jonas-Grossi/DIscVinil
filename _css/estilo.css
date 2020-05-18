@@ -3,7 +3,7 @@
 /*corpo*/
 body{
 /*imagem do fundo*/
-background-image: url("fundo10.jpg");
+background-image: url("fundo11.jpg");
 
 
 }
@@ -160,6 +160,7 @@ float:right;
 }
  
 #btnBusca{
+	
   border:none;
   float:left;
   height:32px;
